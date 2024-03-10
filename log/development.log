@@ -4393,3 +4393,243 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 2060)
 
 
+Started GET "/" for ::1 at 2024-03-10 22:31:54 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 340)
+  Rendered layout layouts/application.html.erb (Duration: 92.7ms | Allocations: 20606)
+Completed 200 OK in 111ms (Views: 102.4ms | ActiveRecord: 0.0ms | Allocations: 23260)
+
+
+Started GET "/profile" for ::1 at 2024-03-10 22:33:22 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 1.8ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 2277)
+Completed 200 OK in 32ms (Views: 28.8ms | ActiveRecord: 0.0ms | Allocations: 3109)
+
+
+Started GET "/profile" for ::1 at 2024-03-10 22:37:17 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 1774)
+Completed 200 OK in 11ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 2059)
+
+
+Started GET "/" for ::1 at 2024-03-10 22:37:18 +0900
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (Duration: 1.0ms | Allocations: 96)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 1856)
+Completed 200 OK in 12ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 2132)
+
+
+Started GET "/profile" for ::1 at 2024-03-10 22:37:20 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 1778)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 2059)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-10 22:37:21 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 28.1ms | Allocations: 4304)
+  Rendered layout layouts/application.html.erb (Duration: 79.5ms | Allocations: 6176)
+Completed 200 OK in 93ms (Views: 83.4ms | ActiveRecord: 1.4ms | Allocations: 7977)
+
+
+Started GET "/" for ::1 at 2024-03-10 22:37:22 +0900
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 1777)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 2054)
+
+
+Started GET "/" for ::1 at 2024-03-10 22:46:53 +0900
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 1786)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 2062)
+
+
+Started GET "/" for ::1 at 2024-03-10 22:46:54 +0900
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 1778)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 2054)
+
+
+Started GET "/" for ::1 at 2024-03-10 22:56:04 +0900
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (Duration: 0.3ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 1790)
+Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 2066)
+
+
+Started GET "/profile" for ::1 at 2024-03-10 22:56:07 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 1784)
+Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 2065)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-10 22:56:09 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 596)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 2357)
+Completed 200 OK in 15ms (Views: 9.5ms | ActiveRecord: 0.5ms | Allocations: 2818)
+
+
+Started GET "/" for ::1 at 2024-03-10 22:56:11 +0900
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 1790)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 2066)
+
+
+Started GET "/" for ::1 at 2024-03-10 22:58:45 +0900
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 1796)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 2072)
+
+
+Started GET "/" for ::1 at 2024-03-10 22:59:23 +0900
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 1775)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 2051)
+
+
+Started GET "/" for ::1 at 2024-03-10 23:13:58 +0900
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html within layouts/application
+  Rendered home/index.html within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 1792)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 2068)
+
+
+Started GET "/" for ::1 at 2024-03-10 23:16:22 +0900
+  
+ArgumentError (Missing :action key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2024-03-10 23:18:45 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html within layouts/application
+  Rendered home/top.html within layouts/application (Duration: 1.1ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 2260)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 3166)
+
+
+Started GET "/profile" for ::1 at 2024-03-10 23:18:47 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 1.1ms | Allocations: 121)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 1900)
+Completed 200 OK in 12ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 2236)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-10 23:18:48 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1713)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 3562)
+Completed 200 OK in 24ms (Views: 16.2ms | ActiveRecord: 0.6ms | Allocations: 5043)
+
+
+Started GET "/" for ::1 at 2024-03-10 23:18:49 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html within layouts/application
+  Rendered home/top.html within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 1790)
+Completed 200 OK in 10ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 2066)
+
+
+Started GET "/" for ::1 at 2024-03-10 23:24:08 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.1ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 2264)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 3088)
+
+
+Started GET "/" for ::1 at 2024-03-10 23:24:10 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 1760)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 2042)
+
+
+Started GET "/profile" for ::1 at 2024-03-10 23:24:12 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 1.2ms | Allocations: 121)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 1870)
+Completed 200 OK in 12ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 2206)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-10 23:24:12 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 765)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 2620)
+Completed 200 OK in 27ms (Views: 21.6ms | ActiveRecord: 0.6ms | Allocations: 3357)
+
+
+Started GET "/" for ::1 at 2024-03-10 23:24:14 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 1784)
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 2066)
+
+
