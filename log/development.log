@@ -4633,3 +4633,780 @@ Processing by HomeController#top as HTML
 Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 2066)
 
 
+Started GET "/" for ::1 at 2024-03-10 23:35:07 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 1791)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 2072)
+
+
+Started GET "/profile" for ::1 at 2024-03-11 00:00:20 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 1808)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 2089)
+
+
+Started GET "/" for ::1 at 2024-03-11 00:00:20 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 1778)
+Completed 200 OK in 12ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 2059)
+
+
+Started GET "/" for ::1 at 2024-03-11 00:13:23 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.9ms | Allocations: 119)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 2257)
+Completed 200 OK in 20ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 3084)
+
+
+Started GET "/" for ::1 at 2024-03-11 00:13:24 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 1778)
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 2060)
+
+
+Started GET "/profile" for ::1 at 2024-03-11 00:13:25 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 1.0ms | Allocations: 121)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 1903)
+Completed 200 OK in 15ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 2239)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-11 00:13:27 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 765)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 2600)
+Completed 200 OK in 23ms (Views: 18.1ms | ActiveRecord: 0.6ms | Allocations: 3337)
+
+
+Started GET "/" for ::1 at 2024-03-11 00:13:29 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 1775)
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 2057)
+
+
+Started GET "/" for ::1 at 2024-03-11 00:14:15 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.2ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 2266)
+Completed 200 OK in 19ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 3090)
+
+
+Started GET "/" for ::1 at 2024-03-11 00:14:17 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 1766)
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 2048)
+
+
+Started GET "/profile" for ::1 at 2024-03-11 00:14:19 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 1.1ms | Allocations: 121)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 1894)
+Completed 200 OK in 14ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 2230)
+
+
+Started GET "/profile" for ::1 at 2024-03-11 00:14:20 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 1772)
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 2053)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-11 00:14:20 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 744)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 2576)
+Completed 200 OK in 19ms (Views: 15.2ms | ActiveRecord: 0.2ms | Allocations: 3196)
+
+
+Started GET "/" for ::1 at 2024-03-11 00:14:21 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 1787)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 2069)
+
+
+Started GET "/profile" for ::1 at 2024-03-11 00:15:33 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 1760)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 2041)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-11 00:15:34 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 575)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2336)
+Completed 200 OK in 14ms (Views: 10.8ms | ActiveRecord: 0.3ms | Allocations: 2654)
+
+
+Started GET "/profile" for ::1 at 2024-03-11 00:15:36 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 1760)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 2041)
+
+
+Started GET "/" for ::1 at 2024-03-11 00:15:37 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 1784)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 2065)
+
+
+Started GET "/" for ::1 at 2024-03-11 00:19:12 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 1772)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 2053)
+
+
+Started GET "/" for ::1 at 2024-03-11 00:19:13 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 1763)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 2044)
+
+
+Started GET "/profile" for ::1 at 2024-03-11 00:19:13 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 1766)
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 2047)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-11 00:19:14 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 580)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 2358)
+Completed 200 OK in 17ms (Views: 14.5ms | ActiveRecord: 0.3ms | Allocations: 2680)
+
+
+Started GET "/" for ::1 at 2024-03-11 00:24:20 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 1783)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 2064)
+
+
+Started GET "/" for ::1 at 2024-03-11 00:35:38 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 8.7ms | Allocations: 118)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 2260)
+Completed 200 OK in 25ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 3087)
+
+
+Started GET "/" for ::1 at 2024-03-11 00:37:46 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 1763)
+Completed 200 OK in 14ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 2045)
+
+
+Started GET "/profile" for ::1 at 2024-03-11 00:37:49 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 2.0ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 1871)
+Completed 200 OK in 15ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 2207)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-11 00:37:58 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 765)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 2624)
+Completed 200 OK in 23ms (Views: 18.7ms | ActiveRecord: 0.7ms | Allocations: 3370)
+
+
+Started GET "/" for ::1 at 2024-03-11 00:41:33 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 1761)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 2043)
+
+
+Started GET "/profile" for ::1 at 2024-03-11 00:41:35 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 1772)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 2053)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-11 00:41:38 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 575)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 2336)
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 0.2ms | Allocations: 2654)
+
+
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPost Create (8.2ms)[0m  [1m[32mINSERT INTO "posts" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "サンプル1"], ["created_at", "2024-03-10 15:42:10.901097"], ["updated_at", "2024-03-10 15:42:10.901097"]]
+  [1m[36mTRANSACTION (7.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for ::1 at 2024-03-11 00:42:53 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 1778)
+Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 2059)
+
+
+Started GET "/profile" for ::1 at 2024-03-11 00:42:55 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 1766)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 2047)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-11 00:42:59 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 587)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 2366)
+Completed 200 OK in 16ms (Views: 12.8ms | ActiveRecord: 0.6ms | Allocations: 2683)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-11 00:43:11 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 587)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 2348)
+Completed 200 OK in 15ms (Views: 11.3ms | ActiveRecord: 0.3ms | Allocations: 2665)
+
+
+Started GET "/" for ::1 at 2024-03-11 00:45:11 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 1760)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 2041)
+
+
+Started GET "/" for ::1 at 2024-03-11 00:47:13 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 1778)
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 2059)
+
+
+Started GET "/profile" for ::1 at 2024-03-11 00:47:15 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.3ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 1775)
+Completed 200 OK in 14ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 2056)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-11 00:47:19 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 587)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 2369)
+Completed 200 OK in 16ms (Views: 13.2ms | ActiveRecord: 0.2ms | Allocations: 2686)
+
+
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPost Create (5.7ms)[0m  [1m[32mINSERT INTO "posts" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "サンプル2"], ["created_at", "2024-03-10 15:47:33.083992"], ["updated_at", "2024-03-10 15:47:33.083992"]]
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/posts/index" for ::1 at 2024-03-11 00:47:39 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 600)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 2391)
+Completed 200 OK in 13ms (Views: 9.6ms | ActiveRecord: 0.3ms | Allocations: 2708)
+
+
+Started GET "/" for ::1 at 2024-03-11 00:49:48 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 1790)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 2071)
+
+
+Started GET "/" for ::1 at 2024-03-11 00:50:04 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 1772)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 2053)
+
+
+Started GET "/profile" for ::1 at 2024-03-11 00:50:05 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 1766)
+Completed 200 OK in 11ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 2047)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-11 00:50:08 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 600)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 2361)
+Completed 200 OK in 18ms (Views: 14.7ms | ActiveRecord: 0.3ms | Allocations: 2678)
+
+
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPost Create (5.5ms)[0m  [1m[32mINSERT INTO "posts" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "サンプル3"], ["created_at", "2024-03-10 15:50:12.190167"], ["updated_at", "2024-03-10 15:50:12.190167"]]
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/posts/index" for ::1 at 2024-03-11 00:50:18 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 612)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 2411)
+Completed 200 OK in 14ms (Views: 11.9ms | ActiveRecord: 0.2ms | Allocations: 2728)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-11 01:00:15 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 633)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 2427)
+Completed 200 OK in 16ms (Views: 10.9ms | ActiveRecord: 1.0ms | Allocations: 2861)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-11 01:00:31 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 612)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 2385)
+Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 0.3ms | Allocations: 2702)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-11 01:01:24 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 612)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 2373)
+Completed 200 OK in 17ms (Views: 13.9ms | ActiveRecord: 0.3ms | Allocations: 2690)
+
+
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPost Create (5.7ms)[0m  [1m[32mINSERT INTO "posts" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "サンプル4"], ["created_at", "2024-03-10 16:01:33.681662"], ["updated_at", "2024-03-10 16:01:33.681662"]]
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/posts/index" for ::1 at 2024-03-11 01:01:36 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 624)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 2391)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.2ms | Allocations: 2708)
+
+
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPost Create (5.9ms)[0m  [1m[32mINSERT INTO "posts" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "サンプル4"], ["created_at", "2024-03-10 16:02:08.305696"], ["updated_at", "2024-03-10 16:02:08.305696"]]
+  [1m[36mTRANSACTION (9.8ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/posts/index" for ::1 at 2024-03-11 01:02:12 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 636)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 2406)
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 0.2ms | Allocations: 2723)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-11 01:02:35 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 636)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 2395)
+Completed 200 OK in 15ms (Views: 11.3ms | ActiveRecord: 0.2ms | Allocations: 2712)
+
+
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPost Create (5.6ms)[0m  [1m[32mINSERT INTO "posts" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "サンプル5"], ["created_at", "2024-03-10 16:02:44.759000"], ["updated_at", "2024-03-10 16:02:44.759000"]]
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/posts/index" for ::1 at 2024-03-11 01:02:47 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 648)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 2403)
+Completed 200 OK in 15ms (Views: 12.1ms | ActiveRecord: 0.4ms | Allocations: 2720)
+
+
+Started GET "/" for ::1 at 2024-03-11 01:03:45 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 1769)
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 2050)
+
+
+Started GET "/" for ::1 at 2024-03-11 01:04:03 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 1775)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 2056)
+
+
+Started GET "/profile" for ::1 at 2024-03-11 01:04:05 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 1772)
+Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 2053)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-11 01:04:07 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 648)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 2418)
+Completed 200 OK in 17ms (Views: 12.5ms | ActiveRecord: 0.3ms | Allocations: 2735)
+
+
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPost Create (5.8ms)[0m  [1m[32mINSERT INTO "posts" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "サンプル6:インターン"], ["created_at", "2024-03-10 16:04:12.602741"], ["updated_at", "2024-03-10 16:04:12.602741"]]
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/posts/index" for ::1 at 2024-03-11 01:04:15 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 661)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 2428)
+Completed 200 OK in 14ms (Views: 11.4ms | ActiveRecord: 0.2ms | Allocations: 2745)
+
+
+Started GET "/" for ::1 at 2024-03-11 01:08:39 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 1769)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 2050)
+
+
+Started GET "/profile" for ::1 at 2024-03-11 01:08:40 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 1790)
+Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 2071)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-11 01:08:41 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 661)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2425)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.2ms | Allocations: 2742)
+
+
+Started GET "/" for ::1 at 2024-03-11 01:16:29 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 1769)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 2050)
+
+
+Started GET "/profile" for ::1 at 2024-03-11 01:16:32 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 1775)
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 2056)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-11 01:16:38 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 682)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 2481)
+Completed 200 OK in 16ms (Views: 12.1ms | ActiveRecord: 0.6ms | Allocations: 2915)
+
+
+Started GET "/profile" for ::1 at 2024-03-11 01:16:39 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 1775)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 2056)
+
+
+Started GET "/" for ::1 at 2024-03-11 01:16:40 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 1806)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 2087)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-11 01:16:41 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 661)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 2438)
+Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 0.3ms | Allocations: 2755)
+
+
+Started GET "/profile" for ::1 at 2024-03-11 01:16:42 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 1778)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 2059)
+
+
+Started GET "/" for ::1 at 2024-03-15 10:38:59 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 1.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 55.7ms | Allocations: 1785)
+Completed 200 OK in 72ms (Views: 62.9ms | ActiveRecord: 0.0ms | Allocations: 2066)
+
+
+Started GET "/profile" for ::1 at 2024-03-15 10:39:02 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.3ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 1766)
+Completed 200 OK in 18ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 2047)
+
+
+Started GET "/" for ::1 at 2024-03-15 10:39:04 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 1772)
+Completed 200 OK in 21ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 2053)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-15 10:39:06 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 682)
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 2464)
+Completed 200 OK in 46ms (Views: 28.1ms | ActiveRecord: 2.7ms | Allocations: 2898)
+
+
+Started GET "/" for ::1 at 2024-03-15 10:39:08 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 1778)
+Completed 200 OK in 23ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 2059)
+
+
+Started GET "/profile" for ::1 at 2024-03-15 10:39:17 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 29.9ms | Allocations: 1801)
+Completed 200 OK in 37ms (Views: 33.1ms | ActiveRecord: 0.0ms | Allocations: 2082)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-15 10:39:19 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 661)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 2456)
+Completed 200 OK in 27ms (Views: 22.2ms | ActiveRecord: 0.6ms | Allocations: 2773)
+
+
+Started GET "/profile" for ::1 at 2024-03-15 10:39:21 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 1786)
+Completed 200 OK in 22ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 2067)
+
+
+Started GET "/" for ::1 at 2024-03-15 10:50:52 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 30.9ms | Allocations: 1791)
+Completed 200 OK in 38ms (Views: 33.2ms | ActiveRecord: 0.0ms | Allocations: 2072)
+
+
+Started GET "/posts/index" for ::1 at 2024-03-15 10:50:54 +0900
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 682)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 2458)
+Completed 200 OK in 26ms (Views: 17.7ms | ActiveRecord: 0.9ms | Allocations: 2892)
+
+
+Started GET "/" for ::1 at 2024-03-15 10:53:54 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 1778)
+Completed 200 OK in 17ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 2059)
+
+
+Started GET "/profile" for ::1 at 2024-03-15 10:53:57 +0900
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.3ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 1769)
+Completed 200 OK in 19ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 2050)
+
+
