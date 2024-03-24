@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
   get "posts/index"=>"posts#index"
+  get "posts/new" => "posts#new"
+  post "posts/create" => "posts#create"
+  get "posts/:id" => "posts#show"
+  
+
+
   get "/"=>"home#top"
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   get "profile"=>"home#profile"
-  # Defines the root path route ("/")
-  # root "articles#index"
 end
