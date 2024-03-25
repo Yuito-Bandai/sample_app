@@ -86,12 +86,5 @@
     color: skyblue;/*アイコン色*/
     }
 
-    /*投稿一覧*/
-    .posts-index-item {
-        padding: 20px 30px;
-        background-color: rgb(156, 215, 226);
-        overflow: hidden;
-        box-shadow: 0 2px 6px #212e37;
-      }
-
+ 
    
